@@ -1,0 +1,6 @@
+.createProduct {
+    display: grid;
+    width: 100%;
+    height: 98vh;
+    place-items: center;
+}

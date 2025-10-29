@@ -1,0 +1,8 @@
+.productsFilter {
+    width: 100px;
+    height: 60px;
+    display: grid;
+    place-items: center;
+    border: 2px solid black;
+    grid-template-columns: repeat(3, 1fr);
+}

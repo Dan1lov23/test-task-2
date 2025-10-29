@@ -1,0 +1,11 @@
+.allProductsIcon {
+    p:hover {
+        cursor: pointer;
+    }
+    .current {
+        color: red;
+    }
+    .default {
+        color: black;
+    }
+}

@@ -1,0 +1,6 @@
+.templateProductMainInfo {
+    text-align: center;
+    .price {
+        font-size: 1.8rem;
+    }
+}

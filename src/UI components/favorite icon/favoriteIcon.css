@@ -1,0 +1,9 @@
+.favoriteIcon {
+    p {
+        display: inline-block;
+        font-size: 1.8rem;
+    }
+    p:hover {
+        cursor: pointer;
+    }
+}

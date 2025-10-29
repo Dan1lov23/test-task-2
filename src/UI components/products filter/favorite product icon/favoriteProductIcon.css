@@ -1,0 +1,11 @@
+.favoriteProductIcon {
+    p:hover {
+        cursor: pointer;
+    }
+    .current {
+        color: red;
+    }
+    .default {
+        coor: black;
+    }
+}

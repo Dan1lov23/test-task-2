@@ -5,8 +5,6 @@ import {faHeart} from "@fortawesome/free-solid-svg-icons";
 
 import {useStore} from "../../store/store/store.ts";
 
-import {useStore} from "../../store/store/store.ts";
-
 export default function FavoriteIcon({product}:{product:Product}) {
 
     const {toggleFavorite} = useStore();

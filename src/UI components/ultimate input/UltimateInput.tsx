@@ -4,7 +4,11 @@ export default function UltimateInput({inputId, inputPlaceholder}:{inputId:strin
     return (
         <>
             <div className="ultimateInput">
-                <input placeholder={inputPlaceholder} id={inputId} maxLength={10}/>
+               {inputId === "productDescription" ? (
+                    <input placeholder={inputPlaceholder} id={inputId} maxLength={30}/>
+                ) : (
+                    <input placeholder={inputPlaceholder} id={inputId} maxLength={10}/>
+                )}
             </div>
         </>
     )
